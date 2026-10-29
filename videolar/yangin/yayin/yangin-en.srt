@@ -1,0 +1,71 @@
+1
+00:00:04,800 --> 00:00:07,880
+A single spark can start a fire in seconds.
+
+2
+00:00:08,040 --> 00:00:08,960
+What should you do?
+
+3
+00:00:10,530 --> 00:00:14,350
+Fire needs three elements:
+fuel, oxygen and heat.
+
+4
+00:00:14,610 --> 00:00:16,850
+Without all three, it cannot start.
+
+5
+00:00:18,220 --> 00:00:20,200
+Keep combustibles stored safely,
+
+6
+00:00:20,240 --> 00:00:24,440
+don't overload electrical outlets,
+and report electrical faults immediately.
+
+7
+00:00:24,740 --> 00:00:30,010
+If you discover a fire, warn others, raise the alarm,
+and call your local emergency number.
+
+8
+00:00:30,340 --> 00:00:33,990
+If the fire is small, you're trained,
+and your escape route is clear,
+
+9
+00:00:34,080 --> 00:00:35,890
+you may use the right extinguisher.
+
+10
+00:00:36,140 --> 00:00:38,430
+Pull the pin. Aim at the base.
+
+11
+00:00:38,540 --> 00:00:41,260
+Squeeze. And sweep side to side.
+
+12
+00:00:41,970 --> 00:00:45,820
+If the fire spreads, or it's unsafe,
+evacuate immediately.
+
+13
+00:00:46,070 --> 00:00:49,440
+Stay low if there's smoke.
+Never use elevators.
+
+14
+00:00:49,600 --> 00:00:51,040
+Follow the escape route.
+
+15
+00:00:51,310 --> 00:00:54,010
+Go to the assembly point
+and report for the headcount.
+
+16
+00:00:54,270 --> 00:00:57,900
+Learn your escape route,
+and your extinguisher location, today.

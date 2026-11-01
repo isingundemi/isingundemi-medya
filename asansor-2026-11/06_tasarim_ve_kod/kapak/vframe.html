@@ -1,0 +1,110 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:P;font-weight:500;src:url(poppins-latin-ext-500-normal.woff2),url(poppins-latin-500-normal.woff2)}
+@font-face{font-family:P;font-weight:600;src:url(poppins-latin-ext-600-normal.woff2),url(poppins-latin-600-normal.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(poppins-latin-ext-700-normal.woff2),url(poppins-latin-700-normal.woff2)}
+@font-face{font-family:P;font-weight:800;src:url(poppins-latin-ext-800-normal.woff2),url(poppins-latin-800-normal.woff2)}
+@font-face{font-family:P;font-weight:500;unicode-range:U+0000-00FF;src:url(poppins-latin-500-normal.woff2)}
+@font-face{font-family:P;font-weight:600;unicode-range:U+0000-00FF;src:url(poppins-latin-600-normal.woff2)}
+@font-face{font-family:P;font-weight:700;unicode-range:U+0000-00FF;src:url(poppins-latin-700-normal.woff2)}
+@font-face{font-family:P;font-weight:800;unicode-range:U+0000-00FF;src:url(poppins-latin-800-normal.woff2)}
+@font-face{font-family:K;font-weight:700;src:url(kufi700.woff2)}
+@font-face{font-family:K;font-weight:800;src:url(kufi800.woff2)}
+:root{--N:#1c2a4a;--G:#d9a521;--GR:#2e6b4a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;background:#fff;font-family:P,K;position:relative;overflow:hidden}
+.ar{font-family:K}
+#logo{position:absolute;top:186px;left:0;right:0;text-align:center}#logo img{height:72px}
+#sub{position:absolute;top:276px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:18px;font-weight:600;font-size:26px;color:var(--N)}
+#sub i{display:block;width:150px;height:3px;background:var(--G)}
+#band{position:absolute;top:322px;left:60px;right:60px;height:88px;background:var(--G);color:var(--N);font-weight:800;font-size:54px;display:flex;align-items:center;justify-content:center;letter-spacing:.5px}
+#stage{position:absolute;top:428px;left:0;width:1080px;height:235px}
+.nm{position:absolute;left:0;right:0;top:8px;height:150px;display:flex;align-items:center;justify-content:center;gap:22px;opacity:0;will-change:transform}
+.nm span{font-weight:800;font-size:106px;line-height:1;color:var(--N);letter-spacing:1px}
+.nm .ar{font-size:98px;line-height:1.3}
+.nm svg{flex:none}
+#uline{position:absolute;top:166px;left:50%;height:7px;border-radius:4px;background:var(--G);transform:translateX(-50%)}
+#tag{position:absolute;top:186px;left:0;right:0;text-align:center;font-weight:700;font-size:31px;color:var(--GR)}
+.wv{position:absolute;top:30px;height:110px;display:flex;align-items:center;gap:7px}
+.wv b{display:block;width:8px;border-radius:5px;background:var(--G)}
+#all{position:absolute;left:0;right:0;top:18px;display:flex;flex-direction:column;align-items:center;gap:20px;opacity:0}
+#all .row{display:flex;gap:14px}
+#all .c{display:flex;align-items:center;gap:10px;background:#fff;border:5px solid var(--G);border-radius:50px;padding:10px 22px;font-weight:800;font-size:40px;color:var(--N);box-shadow:0 8px 20px rgba(28,42,74,.15)}
+#all .t{font-weight:800;font-size:36px;color:var(--N)}
+#all .t em{font-style:normal;color:var(--G)}
+#cta{position:absolute;left:0;right:0;top:0;height:235px;opacity:0}
+#cta .h{position:absolute;left:0;right:0;top:4px;text-align:center;font-weight:800;font-size:96px;line-height:1.05;color:var(--N);letter-spacing:.5px}
+#cta .btn{position:absolute;left:50%;top:122px;transform:translateX(-50%);background:#e00;color:#fff;font-weight:800;font-size:58px;padding:12px 60px 16px;border-radius:60px;box-shadow:0 12px 26px rgba(204,0,0,.35);white-space:nowrap}
+#cur{position:absolute;width:56px;opacity:0;z-index:5}
+#rip{position:absolute;border-radius:50%;border:6px solid rgba(255,255,255,.95);opacity:0;z-index:4}
+#ctas{position:absolute;left:0;right:0;top:1500px;text-align:center;font-weight:700;font-size:40px;color:var(--GR);opacity:0}
+#vid{position:absolute;left:32px;top:680px;width:1016px;height:762px;border-radius:18px;background:#e9e6df;box-shadow:0 14px 34px rgba(28,42,74,.22)}
+#subt{position:absolute;left:64px;width:952px;top:1468px;display:flex;justify-content:center}
+.cue{position:absolute;left:0;right:0;top:0;display:flex;justify-content:center;opacity:0}
+.cue .box{max-width:952px;background:var(--N);border-radius:18px;padding:16px 26px 18px;text-align:center;box-shadow:0 10px 24px rgba(0,0,0,.18);border-bottom:6px solid var(--G)}
+.cue .o{color:#fff;font-weight:700;font-size:48px;line-height:1.28}
+.cue .o.ar{font-size:44px;line-height:1.55;direction:rtl}
+.cue .o b{color:#f2c34a;font-weight:800}
+.cue .tr{margin-top:8px;color:#f2d27a;font-weight:600;font-size:28px;line-height:1.3;white-space:nowrap}
+#sig{position:absolute;top:1714px;left:60px;right:60px;display:flex;justify-content:space-between;align-items:flex-end}
+#sig .a{font-weight:700;font-size:30px;color:var(--N)}#sig .b{font-weight:500;font-size:21px;color:#4a5068}#sig .h{font-weight:700;font-size:27px;color:var(--N)}
+</style></head><body>
+<div id=logo><img src="logo.png"></div>
+<div id=sub><i></i>İş Dünyası | Çalışma Hayatı | İSG<i></i></div>
+<div id=band>İŞ GÜVENLİĞİ ARTIK 4 DİLDE</div>
+<div id=stage>
+ <div class=wv id=wl></div><div class=wv id=wr></div>
+ <div class=nm id=n_tr>SPK<span>Türkçe</span></div>
+ <div class=nm id=n_ku>SPK<span>Kurmancî</span></div>
+ <div class=nm id=n_ar>SPK<span class=ar>العربية</span></div>
+ <div class=nm id=n_en>SPK<span>English</span></div>
+ <div id=uline></div>
+ <div id=tag>🔊 Sesli anlatım + 💬 Altyazı</div>
+ <div id=cta><div class=h>YOUTUBE'DA İZLE!</div><div class=btn id=btn>ABONE OL</div></div>
+ <div id=all><div class=row><div class=c>Türkçe</div><div class=c>Kurmancî</div><div class=c><span class=ar>العربية</span></div><div class=c>English</div></div>
+  <div class=t>4 Dil Seslendirme <em>•</em> Altyazı Desteği</div></div>
+</div>
+<div id=vid></div>
+<div id=subt></div><div id=ctas>🔊 Seslendirme + 💬 Altyazı Desteği</div>
+<svg id=cur viewBox="0 0 24 24"><path d="M4 2l15 11-6.5 1.2 3.8 7-3 1.6-3.8-7L4 20z" fill="#1c2a4a" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg><div id=rip></div>
+<div id=sig><div><div class=a>Alpay Oktay</div><div class=b>A Sınıfı İş Güvenliği Uzmanı</div></div><div class=h>@isingundemi</div></div>
+<script>
+const spk='<svg viewBox="0 0 24 24" width="92" height="92" fill="none" stroke="#1c2a4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5z" fill="#d9a521"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+document.querySelectorAll('.nm').forEach(e=>e.innerHTML=e.innerHTML.replace('SPK',spk));
+let D=null;const NB=9;
+for(const id of ['wl','wr']){const w=document.getElementById(id);for(let i=0;i<NB;i++)w.appendChild(document.createElement('b'));}
+const SCH=[[0.3,'tr'],[1.25,'ku'],[2.2,'ar'],[3.15,'en'],[4.25,'tr'],[9.55,'ku'],[17.1,'ar'],[28.85,'en'],[34.6,'cta']];
+const ease=p=>1-Math.pow(1-Math.max(0,Math.min(1,p)),3);
+window.init=(d)=>{D=d;const s=document.getElementById('subt');D.cues.forEach((c,i)=>{const e=document.createElement('div');e.className='cue';e.id='c'+i;
+ e.innerHTML=`<div class=box><div class="o ${c[2]=='ar'?'ar':''}">${c[3]}</div>${c[4]?`<div class=tr>${c[4]}</div>`:''}</div>`;s.appendChild(e);});};
+window.seek=(t)=>{
+ let cur=-1;for(let i=0;i<SCH.length;i++)if(t>=SCH[i][0])cur=i;
+ for(const k of ['tr','ku','ar','en']){const e=document.getElementById('n_'+k);e.style.opacity=0;}
+ const all=document.getElementById('all'),ul=document.getElementById('uline'),tag=document.getElementById('tag');
+ all.style.opacity=0;ul.style.width='0px';
+ if(cur>=0){const [s,k]=SCH[cur];const p=ease((t-s)/0.32);
+  if(cur>0&&t-s<0.25&&!['all','cta'].includes(SCH[cur-1][1])){const o=document.getElementById('n_'+SCH[cur-1][1]);const q=ease((t-s)/0.25);o.style.opacity=1-q;o.style.transform=`translateY(${-30*q}px)`;}
+  const C=document.getElementById('cta');C.style.opacity=0;document.getElementById('ctas').style.opacity=0;document.getElementById('cur').style.opacity=0;document.getElementById('rip').style.opacity=0;
+  if(k=='cta'){const u=t-s;const q=ease((u-0.7)/0.45);C.style.opacity=q;tag.style.opacity=1-ease(u/0.3);
+   C.querySelector('.h').style.transform=`scale(${.96+.04*q})`;
+   const B=document.getElementById('btn');const qb=ease((u-1.9)/0.4);B.style.opacity=qb;let sc=.9+.1*qb;
+   if(u>3.3&&u<3.9)sc*=1+0.04*Math.sin((u-3.3)/0.6*Math.PI);
+   if(u>4.55&&u<4.75){sc*=0.95;B.style.background='#b00';}else B.style.background='#e00';
+   B.style.transform=`translateX(-50%) scale(${sc})`;
+   document.getElementById('ctas').style.opacity=ease((u-2.4)/0.4);
+   const r=B.getBoundingClientRect();const tx=r.left+r.width*0.62,ty=r.top+r.height*0.55;const pc=ease((u-3.9)/0.6);
+   const cu=document.getElementById('cur');cu.style.opacity=Math.min(1,Math.max(0,(u-3.9)/0.2))*(u<7.4?1:0);cu.style.left=(tx+240*(1-pc))+'px';cu.style.top=(ty+160*(1-pc))+'px';
+   const rp=document.getElementById('rip');if(u>4.55&&u<5.2){const z=(u-4.55)/0.65;const R=36+150*z;rp.style.opacity=1-z;rp.style.width=rp.style.height=2*R+'px';rp.style.left=(tx-R)+'px';rp.style.top=(ty-R)+'px';}
+  }
+  else if(k=='all'){all.style.opacity=p;all.style.transform=`translateY(${30*(1-p)}px) scale(${.96+.04*p})`;tag.style.opacity=1-p;}
+  else{const e=document.getElementById('n_'+k);e.style.opacity=p;e.style.transform=`translateY(${30*(1-p)}px) scale(${.96+.04*p})`;
+   const w=e.querySelector('span').getBoundingClientRect().width+114;ul.style.width=(w*ease((t-s-0.08)/0.22))+'px';tag.style.opacity=1;
+   document.getElementById('wl').style.right=(540+w/2+18)+'px';document.getElementById('wr').style.left=(540+w/2+18)+'px';}
+ } else tag.style.opacity=ease(t/0.3);
+ const f=Math.min(D.env.length-1,Math.max(0,Math.round(t*30)));const v=Math.max(D.env[f]||0,0.12);
+ for(const id of ['wl','wr']){[...document.getElementById(id).children].forEach((b,i)=>{const ph=Math.sin(t*9+i*1.7+(id=='wl'?0:2))*.5+.5;
+  const h=12+ (v*(0.45+0.55*ph))*(id=='wl'?(0.4+0.6*(i/NB)):(1-0.6*(i/NB)))*96; b.style.height=h+'px'; b.style.opacity=(cur>=0&&['all','cta'].includes(SCH[cur][1]))?0:1;});}
+ D.cues.forEach((c,i)=>{const e=document.getElementById('c'+i);const a=c[0],b=c[1];let o=0,y=0;
+  if(t>=a&&t<=b+0.2){o=Math.min(ease((t-a)/0.2),1-ease((t-b)/0.2));y=12*(1-ease((t-a)/0.2));}
+  e.style.opacity=o;e.style.transform=`translateY(${y}px)`;});
+};
+</script></body></html>

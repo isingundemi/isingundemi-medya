@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:P;font-weight:800;src:url(poppins-latin-ext-800-normal.woff2),url(poppins-latin-800-normal.woff2)}
+@font-face{font-family:P;font-weight:700;src:url(poppins-latin-ext-700-normal.woff2),url(poppins-latin-700-normal.woff2)}
+@font-face{font-family:P;font-weight:800;unicode-range:U+0000-00FF;src:url(poppins-latin-800-normal.woff2)}
+@font-face{font-family:P;font-weight:700;unicode-range:U+0000-00FF;src:url(poppins-latin-700-normal.woff2)}
+@font-face{font-family:K;font-weight:800;src:url(kufi800.woff2)}
+:root{--navy:#1c2a4a;--gold:#d9a521;--green:#2e6b4a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:720px;position:relative;overflow:hidden;font-family:P,K}
+#bg{position:absolute;inset:0;width:1280px;height:720px}
+.patch{position:absolute;background:#fff}
+.dil{position:absolute;right:24px;top:22px;background:#fff;border:4px solid var(--gold);border-radius:18px;padding:10px 22px 10px 16px;display:flex;align-items:center;gap:12px;box-shadow:0 8px 22px rgba(0,0,0,.22)}
+.dil svg{width:42px;height:42px}
+.dil .k{font-weight:800;font-size:36px;color:var(--navy);letter-spacing:1px;display:flex;align-items:center;gap:10px;line-height:1}
+.dil .k i{display:block;width:4px;height:32px;background:var(--gold);border-radius:2px}
+.dil .s{font-weight:700;font-size:15px;color:var(--green);margin-top:4px;letter-spacing:.3px}
+.grid{position:absolute;left:56px;display:grid;grid-template-columns:auto auto;gap:12px 14px}
+.c{display:flex;align-items:center;justify-content:center;background:#fff;border:4px solid var(--gold);border-radius:40px;height:58px;padding:0 24px;font-weight:800;font-size:34px;color:var(--navy);box-shadow:0 6px 14px rgba(28,42,74,.14)}
+.c.ar{font-family:K;font-size:31px;padding-top:4px}
+</style></head><body>
+<img id=bg>
+<div class=patch id=patch style="display:none"></div>
+<div class=dil><svg viewBox="0 0 24 24" fill="none" stroke="#1c2a4a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5z" fill="#d9a521"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+<div><div class=k>TR<i></i>KU<i></i>AR<i></i>EN</div><div class=s>4 dilde ses + altyazı</div></div></div>
+<div class=grid id=grid><div class=c>Türkçe</div><div class=c>Kurmancî</div><div class="c ar">العربية</div><div class=c>English</div></div>
+<script>
+const q=new URLSearchParams(location.search);document.getElementById('bg').src=q.get('bg');
+document.getElementById('grid').style.top=q.get('top')+'px';
+if(q.get('sm')){document.querySelectorAll('.c').forEach(c=>{c.style.height='52px';c.style.fontSize=c.classList.contains('ar')?'29px':'31px'});document.getElementById('grid').style.rowGap='9px';}
+if(q.get('patch')){const [x,y,w,h]=q.get('patch').split(',');const p=document.getElementById('patch');Object.assign(p.style,{display:'block',left:x+'px',top:y+'px',width:w+'px',height:h+'px'});}
+</script></body></html>

@@ -1,0 +1,88 @@
+1
+00:00:00,300 --> 00:00:03,450
+Asansörün halatı koparsa, kabin düşer mi?
+
+2
+00:00:04,960 --> 00:00:07,005
+Cevap, tek bir parçada değil.
+
+3
+00:00:07,005 --> 00:00:09,470
+Bir güvenlik zincirinde saklı.
+
+4
+00:00:10,600 --> 00:00:15,430
+Kabin, tek bir halata değil, birden fazla bağımsız çelik halata asılıdır.
+
+5
+00:00:16,600 --> 00:00:21,590
+Her halat, üzerine düşen yükün en az on iki katına dayanacak şekilde seçilir.
+
+6
+00:00:22,740 --> 00:00:24,305
+Peki elektrik kesilirse?
+
+7
+00:00:24,305 --> 00:00:29,090
+Makinedeki yaylı fren kendiliğinden devreye girerek kabini durdurur.
+
+8
+00:00:30,100 --> 00:00:32,770
+Ya kabin kontrolsüz şekilde hızlanırsa?
+
+9
+00:00:33,420 --> 00:00:36,997
+İşte o an, hız regülatörü kendi ayrı halatını durdurur.
+
+10
+00:00:36,997 --> 00:00:39,208
+Bu hareket paraşüt freni tetikler.
+
+11
+00:00:39,208 --> 00:00:41,484
+Çelik kamalar raylara kenetlenir...
+
+12
+00:00:41,484 --> 00:00:42,810
+ve kabin durur.
+
+13
+00:00:45,020 --> 00:00:47,391
+Peki bu sistemler bakımsız kalırsa?
+
+14
+00:00:47,391 --> 00:00:49,570
+İşte risk tam burada artar.
+
+15
+00:00:50,860 --> 00:00:55,530
+Bu yüzden yetkili servis, asansörün bakımını ayda en az bir kez yapar.
+
+16
+00:00:56,860 --> 00:01:00,690
+Yılda en az bir kez de bağımsız periyodik kontrol yapılır.
+
+17
+00:01:02,620 --> 00:01:04,702
+Sonuç, renkli etikette yazar.
+
+18
+00:01:04,702 --> 00:01:06,641
+Kırmızı, güvensiz demektir.
+
+19
+00:01:06,641 --> 00:01:08,570
+O asansör kullanılmaz.
+
+20
+00:01:10,040 --> 00:01:11,786
+Binmeden önce etikete bak.
+
+21
+00:01:11,786 --> 00:01:12,860
+Seninki ne renk?
+
+22
+00:01:12,860 --> 00:01:14,150
+Yorumlara yaz.
+

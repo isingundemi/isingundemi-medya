@@ -1,0 +1,43 @@
+TUR 5 — ÇEVİRİ KİLİTLEME. İkinizin düzeltmelerini birleştirdim: EN = ChatGPT düzeltmeleri; KU = ChatGPT (1,4,5,6,11 yapısı) + Gemini (eril "halat" uyumu: halatekî / halatê xwe yê; "dizeliqin" yerine "Pêgirên pola rayên rêber digirin"; "bêewle"; 12'de "Ya te çi reng e?"); AR = ChatGPT düzeltmeleri + Gemini'nin 12. satırı. Yalnızca KRİTİK hata görürsen satır numarasıyla yaz; yoksa tek satır "ÇEVİRİ ONAY".
+
+EN
+1 If one elevator rope snaps, will the car fall?
+2 The answer lies in a chain of safety systems, not just one part.
+3 The car is suspended by several independent steel ropes, not just one.
+4 Each rope is chosen to withstand at least twelve times the load it carries.
+5 What if the power goes out? The machine's spring-applied brake engages on its own and stops the car.
+6 And what if the car speeds up out of control?
+7 That's when the overspeed governor stops its separate rope. This activates the car's safety gear. Steel wedges grip the guide rails... and the car stops.
+8 But what if these systems are neglected? That's when the risk increases.
+9 That's why an authorized company services the elevator at least once a month.
+10 And at least once a year, an independent periodic inspection is carried out.
+11 The result is shown on a color-coded inspection label. Red means unsafe. Don't use that elevator.
+12 Check the label before you step in. What color is yours? Tell us in the comments.
+
+KU
+1 Heke yek ji halatên asansorê biqete, ma kabîn dê bikeve?
+2 Bersiv ne di parçeyekê tenê de ye. Di zincîreke ewlehiyê de veşartî ye.
+3 Kabîn ne bi halatekî tenê, bi çend halatên pola yên serbixwe ve daliqandî ye.
+4 Her halat wisa tê hilbijartin ku herî kêm diwanzdeh qatê barê xwe ragire.
+5 Lê heke elektrîk biqete? Frena makîneyê ya bi zemberekê bi xwe dikeve dewrê û kabînê disekinîne.
+6 Û heke leza kabînê bêkontrol zêde bibe?
+7 Di wê kêliyê de, regulatorê lezê halatê xwe yê cuda disekinîne. Ev tevger frena paraşûtê dide xebitandin. Pêgirên pola rayên rêber digirin... û kabîn disekine.
+8 Lê heke lênêrîna van sîsteman neyê kirin? Xeter tam li vir zêde dibe.
+9 Ji ber vê yekê, servîsa destûrdar herî kêm mehê carekê lênêrîna asansorê dike.
+10 Salê herî kêm carekê jî kontrola periyodîk a serbixwe tê kirin.
+11 Encam li ser etîketa rengîn tê nivîsandin. Sor tê wateya bêewle. Ew asansor nayê bikaranîn.
+12 Berî ku tu siwar bibî, li etîketê binêre. Ya te çi reng e? Di şîroveyan de binivîse.
+
+AR
+1 إذا انقطع أحد حبال المصعد، فهل تسقط الكابينة؟
+2 الجواب لا يكمن في جزء واحد، بل في سلسلة من أنظمة الأمان.
+3 الكابينة معلّقة بعدة حبال فولاذية مستقلة، لا بحبل واحد.
+4 يُختار كل حبل ليتحمّل اثني عشر ضعفًا على الأقل من الحِمل الواقع عليه.
+5 وماذا لو انقطعت الكهرباء؟ تعمل فرامل الماكينة بفعل النوابض تلقائيًا، فتوقف الكابينة.
+6 وماذا لو تسارعت الكابينة دون تحكّم؟
+7 عندها يوقف منظّم السرعة حبله المنفصل. هذه الحركة تُفعّل فرامل الأمان. وتقبض الأسافين الفولاذية على قضبان التوجيه... فتتوقف الكابينة.
+8 لكن ماذا لو أُهملت صيانة هذه الأنظمة؟ هنا بالضبط يزداد الخطر.
+9 لهذا تتولى شركة معتمدة صيانة المصعد مرة على الأقل كل شهر.
+10 ويُجرى أيضًا فحص دوري مستقل مرة واحدة على الأقل سنويًا.
+11 تظهر النتيجة على ملصق ملوّن. الأحمر يعني أن المصعد غير آمن. لا تستخدمه.
+12 انظر إلى الملصق قبل أن تركب. ما لونه عندك؟ اكتب في التعليقات.

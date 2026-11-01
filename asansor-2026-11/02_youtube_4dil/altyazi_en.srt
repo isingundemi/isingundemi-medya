@@ -1,0 +1,84 @@
+1
+00:00:00,300 --> 00:00:03,570
+If one elevator rope snaps, will the car fall?
+
+2
+00:00:04,960 --> 00:00:08,930
+The answer lies in a chain of safety systems, not just one part.
+
+3
+00:00:10,600 --> 00:00:15,050
+The car is suspended by several independent steel ropes, not just one.
+
+4
+00:00:16,600 --> 00:00:20,810
+Each rope is chosen to withstand at least twelve times the load it carries.
+
+5
+00:00:22,740 --> 00:00:24,207
+What if the power goes out?
+
+6
+00:00:24,207 --> 00:00:28,470
+The machine's spring-applied brake engages on its own and stops the car.
+
+7
+00:00:30,100 --> 00:00:32,470
+And what if the car speeds up out of control?
+
+8
+00:00:33,420 --> 00:00:36,913
+That's when the overspeed governor stops its separate rope.
+
+9
+00:00:36,913 --> 00:00:39,103
+This activates the car's safety gear.
+
+10
+00:00:39,103 --> 00:00:41,234
+Steel wedges grip the guide rails...
+
+11
+00:00:41,234 --> 00:00:42,650
+and the car stops.
+
+12
+00:00:45,020 --> 00:00:47,105
+But what if these systems are neglected?
+
+13
+00:00:47,105 --> 00:00:49,070
+That's when the risk increases.
+
+14
+00:00:50,860 --> 00:00:55,250
+That's why an authorized company services the elevator at least once a month.
+
+15
+00:00:56,860 --> 00:01:01,270
+And at least once a year, an independent periodic inspection is carried out.
+
+16
+00:01:02,620 --> 00:01:06,008
+The result is shown on a color-coded inspection label.
+
+17
+00:01:06,008 --> 00:01:07,074
+Red means unsafe.
+
+18
+00:01:07,074 --> 00:01:08,930
+Don't use that elevator.
+
+19
+00:01:10,040 --> 00:01:11,874
+Check the label before you step in.
+
+20
+00:01:11,874 --> 00:01:12,922
+What color is yours?
+
+21
+00:01:12,922 --> 00:01:14,530
+Tell us in the comments.
+

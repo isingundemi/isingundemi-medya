@@ -1,0 +1,48 @@
+1
+00:00:03,000 --> 00:00:04,380
+The manhole is open.
+
+2
+00:00:04,560 --> 00:00:05,930
+It looks close down there.
+
+3
+00:00:06,240 --> 00:00:08,230
+"Just a one-minute job," he says.
+
+4
+00:00:08,560 --> 00:00:09,630
+But down there...
+
+5
+00:00:13,500 --> 00:00:15,080
+there's something you can't see.
+
+6
+00:00:15,430 --> 00:00:16,850
+Hydrogen sulfide.
+
+7
+00:00:17,350 --> 00:00:18,540
+Don't trust the smell;
+
+8
+00:00:18,660 --> 00:00:23,540
+at high levels it knocks out your sense of smell, and a few breaths can make you pass out.
+
+9
+00:00:24,990 --> 00:00:28,980
+More than sixty percent of confined-space deaths are would-be rescuers.
+
+10
+00:00:29,190 --> 00:00:32,060
+If your coworker collapses, don't go in after him.
+
+11
+00:00:32,230 --> 00:00:35,440
+Move away and call emergency services, 112.
+
+12
+00:00:37,640 --> 00:00:45,200
+Never enter a confined space without gas testing, ventilation, a supplied-air breathing apparatus and a standby attendant.
+

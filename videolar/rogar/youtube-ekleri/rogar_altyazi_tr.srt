@@ -1,0 +1,52 @@
+1
+00:00:03,000 --> 00:00:04,060
+Rögar açık.
+
+2
+00:00:04,150 --> 00:00:05,570
+Aşağısı yakın görünüyor.
+
+3
+00:00:05,750 --> 00:00:07,100
+Bir dakikalık iş, diyor.
+
+4
+00:00:07,400 --> 00:00:08,790
+Ama aşağıda...
+
+5
+00:00:13,500 --> 00:00:14,890
+göremediğin bir şey var.
+
+6
+00:00:15,160 --> 00:00:16,340
+Hidrojen sülfür.
+
+7
+00:00:17,350 --> 00:00:18,540
+Kokusuna güvenme;
+
+8
+00:00:18,650 --> 00:00:20,910
+yüksek yoğunlukta koku almayı durdurur,
+
+9
+00:00:20,930 --> 00:00:22,490
+birkaç nefeste bayıltır.
+
+10
+00:00:24,990 --> 00:00:29,410
+Kapalı alan ölümlerinin yüzde altmışından fazlası, kurtarmaya girenlerdir.
+
+11
+00:00:29,540 --> 00:00:31,810
+Arkadaşın düştüyse, peşinden inme.
+
+12
+00:00:31,920 --> 00:00:33,780
+Uzaklaş, 112'yi ara.
+
+13
+00:00:37,640 --> 00:00:43,740
+Gaz ölçümü, havalandırma, temiz hava cihazı ve gözcü olmadan, kapalı alana girilmez.
+
